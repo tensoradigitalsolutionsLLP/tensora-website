@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0C38A"/>
+      <stop offset="50%" stop-color="#D8B070"/>
+      <stop offset="100%" stop-color="#B88A4C"/>
+    </linearGradient>
+    <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D294A"/>
+      <stop offset="100%" stop-color="#071A33"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <!-- Background Shape -->
+  <rect width="120" height="120" rx="28" fill="url(#navyBg)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  
+  <!-- Subtle geometric grid lines -->
+  <circle cx="60" cy="60" r="42" fill="none" stroke="#D8B070" stroke-opacity="0.18" stroke-dasharray="3 3"/>
+  <circle cx="60" cy="60" r="28" fill="none" stroke="#D8B070" stroke-opacity="0.12"/>
+  
+  <!-- Stylized T Geometric Monogram -->
+  <path d="M 32 36 L 88 36 L 88 46 L 66 46 L 66 86 L 54 86 L 54 46 L 32 46 Z" fill="url(#goldGrad)" filter="url(#goldGlow)"/>
+  <polygon points="60,26 65,34 60,42 55,34" fill="#E0C38A" opacity="0.9"/>
+  <circle cx="60" cy="88" r="3.5" fill="#E0C38A"/>
+</svg>

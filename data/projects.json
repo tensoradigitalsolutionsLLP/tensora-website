@@ -1,0 +1,64 @@
+[
+  {
+    "id": "proj-8",
+    "title": "Shop billing portal",
+    "category": "Websites",
+    "client": "Senthil electicals",
+    "year": "2025",
+    "description": "professional billing portal to manage stocks and product billing",
+    "tags": [
+      "React",
+      "Tailwind",
+      "Mapbox",
+      "Node.js"
+    ],
+    "stats": {
+      "latency": "<50ms",
+      "fleet": "10,000+",
+      "countries": "34"
+    },
+    "imageUrl": "",
+    "imageTheme": "linear-gradient(135deg, #071A33 0%, #0B1220 50%, #E0C38A 100%)",
+    "featured": false,
+    "accent": "#E0C38A",
+    "typeBadge": "Web Application"
+  },
+  {
+    "id": "proj-845be580-2478-4e1b-a85a-f2b42296ba09",
+    "title": "TN36 tech & enterprises  website",
+    "category": "Websites",
+    "client": "Gokul",
+    "year": "2026",
+    "description": "Professional  portfolio website to showcase their works & services",
+    "tags": [
+      "React js",
+      "Node js",
+      "Express js",
+      "Javascript"
+    ],
+    "stats": {},
+    "imageUrl": "/api/project-images/472be53f07f67b70d67f849f7f40db03.png",
+    "imageTheme": "linear-gradient(135deg, #071A33 0%, #0D294A 55%, #D8B070 100%)",
+    "featured": false,
+    "accent": "#D8B070",
+    "typeBadge": "Project"
+  },
+  {
+    "id": "proj-5ce1f140-1e08-4179-8140-6aa1109275c3",
+    "title": "Professional Logo design",
+    "category": "Graphic Design",
+    "client": "Thuli. gifts",
+    "year": "2026",
+    "description": "Professional  logo for Thuli.gifts to enhance their brand identity",
+    "tags": [
+      "Adobe Photoshop",
+      "Adobe illustrator"
+    ],
+    "stats": {},
+    "imageUrl": "",
+    "imageTheme": "linear-gradient(135deg, #071A33 0%, #0D294A 55%, #D8B070 100%)",
+    "featured": false,
+    "accent": "#D8B070",
+    "typeBadge": "Logo"
+  }
+]
