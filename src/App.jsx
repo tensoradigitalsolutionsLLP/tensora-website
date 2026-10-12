@@ -37,6 +37,11 @@ export default function App() {
     setIsEstimatorOpen(true);
   };
 
+  const handleCloseEstimator = () => {
+    setIsEstimatorOpen(false);
+    setEstimatorInitialService('');
+  };
+
   const handleApplyEstimate = (summary) => {
     setAppliedEstimate(summary);
     showToast({
@@ -100,7 +105,7 @@ export default function App() {
       {/* Interactive Scope & Cost Estimator Modal */}
       <CostEstimator
         isOpen={isEstimatorOpen}
-        onClose={() => setIsEstimatorOpen(false)}
+        onClose={handleCloseEstimator}
         onApplyToContact={handleApplyEstimate}
         initialService={estimatorInitialService}
       />

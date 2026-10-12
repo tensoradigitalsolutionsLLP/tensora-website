@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { X, Calculator, Check, ArrowRight, Sparkles, Sliders } from 'lucide-react';
 
 export default function CostEstimator({ isOpen, onClose, onApplyToContact, initialService = '' }) {
@@ -8,6 +8,11 @@ export default function CostEstimator({ isOpen, onClose, onApplyToContact, initi
   const [platformTier, setPlatformTier] = useState('Standard');
   const [timelineSpeed, setTimelineSpeed] = useState('Standard');
   const [needsMaintenance, setNeedsMaintenance] = useState(true);
+
+  useEffect(() => {
+    const nextSelectedServices = initialService ? [initialService] : ['Website Development'];
+    setSelectedServices(nextSelectedServices);
+  }, [initialService, isOpen]);
 
   if (!isOpen) return null;
 
